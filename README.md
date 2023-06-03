@@ -1,3 +1,3 @@
-# swagger-xss-payloads
+# Public Static Assets
 
-Payloads to trigger XSS in versions of Swagger **>=3.14.1 < 3.38.0**
+Static resources available at: https://xss.smarpo.com
