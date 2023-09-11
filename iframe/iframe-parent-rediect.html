@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <script>
+            alert('This is a Proof of Concept (POC) showing that a child iframe can redirect the top-most (parent) window.');
+            var res = confirm('Do you want to redirect?');
+            if (res === true) {
+                window.top.location.href = 'https://example.com';
+            } else {
+                console.log('Redirection cancelled');
+            }
+        </script>
+    </body>
+</html>
